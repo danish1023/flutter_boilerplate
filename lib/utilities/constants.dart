@@ -1,0 +1,1 @@
+const String ALERT_DIALOG_TITLE = "Alert";
