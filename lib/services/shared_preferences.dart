@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-class Auth {
-  Future<SharedPreferences> getUser() async {
+class Preferences {
+  Future<SharedPreferences> getPreferences() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     return prefs;
   }
