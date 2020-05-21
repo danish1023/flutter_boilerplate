@@ -5,11 +5,9 @@ import 'package:flutter_boilerplate/utilities/basic_auth.dart';
 import 'package:flutter_boilerplate/models/profile_model.dart';
 
 class ProfileAPI {
-  // ProfileAPI _profileAPI = ProfileAPI(userid: '20');
-  // Note: Above line is used in another class to pass parameters
   ProfileAPI({this.userid});
   final String userid;
-  
+
   Future fetchProfile() async {
     var response = await http.post(
       new Uri.http("sodhis.test", "/api/test"),
