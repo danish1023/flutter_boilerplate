@@ -6,3 +6,13 @@ class Preferences {
     return prefs;
   }
 }
+
+ ///////////////
+// How to use /////////////////////////////////////
+///////////////
+
+// Preference().getPreferences().then((prefs) {
+//   setState(() {
+//     _userId = prefs.getInt('user_id').toString();
+//   });
+// });
